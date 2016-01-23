@@ -1,0 +1,29 @@
+nav
+{
+	width: 100%;
+	background: #242830;
+	position: relative;
+}
+
+nav ul li
+{
+	position: relative;
+	padding: 24px 10px 24px 10px;
+	width: 700px;
+	border: 1px red solid;
+}
+
+nav ul li a
+{
+
+	font-family: 'Varela Round', sans-serif;
+	font-size: 11pt;
+	text-decoration:none;
+	color: #9FA7AA;
+}
+
+nav ul hr
+{
+	width: 700px;
+	border: 1px #9FA7AA dotted;
+}
