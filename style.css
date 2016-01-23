@@ -1,16 +1,24 @@
+section
+{
+	width: 100%;
+	min-width: 1200px;
+	position: relative;
+}
+
 nav
 {
 	width: 100%;
+	height: 350px;
 	background: #242830;
 	position: relative;
+	padding: 35px 5px 10px 5px;
+	//display: none;
 }
 
 nav ul li
 {
-	position: relative;
-	padding: 24px 10px 24px 10px;
-	width: 700px;
-	border: 1px red solid;
+	margin-left:17%;
+	width: 1000px;
 }
 
 nav ul li a
@@ -20,10 +28,138 @@ nav ul li a
 	font-size: 11pt;
 	text-decoration:none;
 	color: #9FA7AA;
+	transition: 0.5s;
 }
 
-nav ul hr
+nav ul li a:hover
 {
-	width: 700px;
+
+	font-family: 'Varela Round', sans-serif;
+	font-size: 11pt;
+	text-decoration:none;
+	color: white;
+	transition: 0.5s;
+}
+
+.line
+{
+	width: 995px;
 	border: 1px #9FA7AA dotted;
+	opacity: 0.3;
+	margin: 22px 0 22px 0;
+}
+
+li img
+{
+	float: right;
+	width: 15px;
+	height: 15px;
+	background: url (img/arrow.png);
+	opacity: 0.5;
+	transition: 0.5s;
+}
+
+li img:hover
+{
+	float: right;
+	width: 15px;
+	height: 15px;
+	background: url (img/arrow.png);
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.main-screen
+{
+	background: url("img/bg.jpg") center no-repeat;
+	height: 800px;
+}
+
+
+.humburger-menu
+{
+	position: relative;
+	width: 1335px;
+	height: 270px;
+}
+
+.humburger-menu img
+{
+	float: right;
+	margin-top: 65px;
+	width: 40px;
+	height: 30px;
+}
+
+.main-text
+{
+	position: relative;
+	text-align: center;
+	width: 100%;
+	height: 160px;
+}
+
+.main-text h1
+{	
+	font-family: 'Varela Round', sans-serif;
+	font-size: 30pt;
+	color: #353535;
+	font-weight: 100;
+	margin-bottom: 15px;
+}
+
+.main-text span
+{	
+	font-family: 'Varela Round', sans-serif;
+	font-size: 30pt;
+	color: #A1A9B0;
+	font-weight: 100;
+}
+
+.main-text p
+{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 12pt;
+	font-weight: 100;
+	color: #8C9398;
+}
+
+.main-button
+{
+	position: relative;
+	margin-left: 42%;
+	width: 260px;
+	height: 60px;
+	background: #3DC9B3;
+	text-align: center;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 3px 0px 0px rgba(48,147,130,1);
+	-moz-box-shadow: 0px 3px 0px 0px rgba(48,147,130,1);
+	box-shadow: 0px 3px 0px 0px rgba(48,147,130,1);
+	transition: 0.5s;
+}
+
+.main-button:hover
+{
+	position: relative;
+	margin-left: 42%;
+	width: 260px;
+	height: 60px;
+	background: #87DBCF;
+	text-align: center;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 3px 0px 0px rgba(48,147,130,1);
+	-moz-box-shadow: 0px 3px 0px 0px rgba(48,147,130,1);
+	box-shadow: 0px 3px 0px 0px rgba(48,147,130,1);
+	transition: 0.5s;
+}
+
+.main-button h2
+{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 12pt;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 15px;
+	padding-top: 22px;
 }
