@@ -12,7 +12,7 @@ nav
 	background: #242830;
 	position: relative;
 	padding: 35px 5px 10px 5px;
-	//display: none;
+	display: none;
 }
 
 nav ul li

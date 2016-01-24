@@ -11,6 +11,28 @@
 			<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 
             <title>Grayscales</title>
+			
+			
+			<script src="js/jquery-1.10.2.js"></script>
+			<script>
+				$(document).ready(function(){
+					$(".h-m").click(function(){
+						$("nav").toggle("slow")
+						{
+							if ($("nav").css("display")=="none") 
+							{
+							alert("a");
+								$(".h-m").attr('src', 'img/hum.png');
+							}
+							else
+							{						
+								$(".h-m").attr('src', 'img/close.png');
+							}
+						}
+					});
+				});
+
+			</script>
         </head>
 
         <body>
@@ -27,7 +49,7 @@
 			
 			<section class="main-screen">
 				<div class="humburger-menu">
-					<img src="img/hum.png">
+					<img class="h-m" src="img/hum.png">
 				</div>
 				<div class="main-text">
 					<h1>
